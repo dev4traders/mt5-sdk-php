@@ -4,21 +4,21 @@
 [![PHP Version][badge-php]][php]
 [![Total Downloads][badge-downloads]][downloads]
 
-[badge-release]: https://img.shields.io/packagist/v/dev4traders/mt4-sdk-php.svg?style=flat-square&label=release
-[packagist]: https://packagist.org/packages/dev4traders/mt4-sdk-php
+[badge-release]: https://img.shields.io/packagist/v/dev4traders/mt5-sdk-php.svg?style=flat-square&label=release
+[packagist]: https://packagist.org/packages/dev4traders/mt5-sdk-php
 
-[badge-php]: https://img.shields.io/packagist/php-v/dev4traders/mt4-sdk-php.svg?style=flat-square
+[badge-php]: https://img.shields.io/packagist/php-v/dev4traders/mt5-sdk-php.svg?style=flat-square
 [php]: https://php.net
 
-[badge-downloads]: https://img.shields.io/packagist/dt/dev4traders/mt4-sdk-php.svg?style=flat-square&colorB=mediumvioletred
-[downloads]: https://packagist.org/packages/dev4traders/mt4-sdk-php
+[badge-downloads]: https://img.shields.io/packagist/dt/dev4traders/mt5-sdk-php.svg?style=flat-square&colorB=mediumvioletred
+[downloads]: https://packagist.org/packages/dev4traders/mt5-sdk-php
 <!-- BADGES_END -->
 
 
 Here are a few examples:
 
 ```php
-$manager = new \D4T\MT4Sdk\Manager('<api-key>', '<mt4-api-endpoint>')
+$manager = new \D4T\MT5Sdk\Manager('<api-key>', '<mt4-api-endpoint>')
 
 // creating a account
 $account = $manager->createAccount([
@@ -42,7 +42,7 @@ foreach($logins as $login) {
 You can install the package via composer:
 
 ```bash
-composer require dev4traders/mt4-sdk-php
+composer require dev4traders/mt5-sdk-php
 ```
 
 You must also install Guzzle
@@ -53,12 +53,12 @@ composer require guzzlehttp/guzzle
 
 ## Usage
 
-To get started, you must first new up an instance of `D4T\MT4Sdk\Manager`
+To get started, you must first new up an instance of `D4T\MT5Sdk\Manager`
 
 ```php
 use D4T\MT4Sdk\Manager;
 
-$manager = new \D4T\MT4Sdk\Manager('<api-key>', '<mt4-api-endpoint>')
+$manager = new \D4T\MT5Sdk\Manager('<api-key>', '<mt4-api-endpoint>')
 ```
 
 ## Testing
