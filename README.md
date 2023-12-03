@@ -1,4 +1,4 @@
-# An SDK for using the Metatrader4 API in PHP
+# An SDK for using the Metatrader5 API in PHP
 <!-- BADGES_START -->
 [![Latest Version][badge-release]][packagist]
 [![PHP Version][badge-php]][php]
